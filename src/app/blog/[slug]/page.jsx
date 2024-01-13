@@ -6,7 +6,7 @@ import PostUser from '@/components/postUser/postUser';
 
 
 const getData = async (slug) => {
-  const res = await fetch(`http://localhost:3000/api/blog/${slug}`);
+  const res = await fetch(`https://next-js-14-blog-app.vercel.app/api/blog/${slug}`);
 
   if (!res.ok) {
     throw new Error("Something went wrong");

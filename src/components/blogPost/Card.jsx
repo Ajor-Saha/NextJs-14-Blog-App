@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -5,7 +6,7 @@ const Card = ({ post }) => {
   return (
     <div className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96 h-auto">
       <div className="relative px-2 py-2 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
-        <img
+        <Image
           src={post.img}
           alt="card-image"
           className="rounded-md"
