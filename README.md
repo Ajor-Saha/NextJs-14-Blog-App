@@ -14,23 +14,39 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# My Awesome Blog Web App
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Welcome to my awesome Next.js full-stack blog web app! This app allows users to browse blogs, read them, and engage with the content. It includes user authentication, GitHub authentication, admin dashboards, blog creation and deletion, user management, and a contact form for users to connect with the admin.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Features
 
-## Learn More
+- **User Authentication:** Users can register, login, and authenticate using NextAuth.js.
+- **GitHub Authentication:** GitHub users can seamlessly authenticate to the app.
+- **Admin Dashboards:** Admins can create and delete blog posts, manage users, and access contact information.
+- **Blog Management:** Users can browse blogs, read them, and admins can create and delete blog posts.
+- **Contact Form:** Users can contact the admin via a contact form.
 
-To learn more about Next.js, take a look at the following resources:
+## Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Frontend:** Next.js, React
+- **Backend:** MongoDB, NextAuth.js
+- **Authentication:** NextAuth.js, GitHub OAuth
+- **Styling:** Tailwind CSS,CSS
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Admin Dashboard Screenshots
 
-## Deploy on Vercel
+<h3>Add post</h3>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<img src="pic1.png" width="800px" title="admin"/>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<h3>Add user</h3>
+<img src="pic2.png" width="800px" title="admin"/>
+
+<h3>Add user</h3>
+<img src="pic3.png" width="800px" title="admin"/>
+
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Ajor-Saha/NextJs-14-Blog-App.git
