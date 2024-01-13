@@ -50,3 +50,6 @@ Welcome to my awesome Next.js full-stack blog web app! This app allows users to 
 
    ```bash
    git clone https://github.com/Ajor-Saha/NextJs-14-Blog-App.git
+2. Reference
+Lama dev youtube channel
+<a>https://youtu.be/vCOSTG10Y4o?si=NNkA-yiCwAqGzmwr</a>
